@@ -7,6 +7,12 @@
     --dark-grey: #434455;
 }
 
+.conteiner {
+    width: 1128px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
