@@ -286,6 +286,7 @@ a {
 .duties {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .duties-section {
@@ -293,7 +294,7 @@ a {
 }
 
 .duties-item {
-    flex-basis: calc((100% - 3 * 16px) / 3);
+    flex-basis: calc((100% - 48px) / 3)
 }
 
 .duties-section .container {
