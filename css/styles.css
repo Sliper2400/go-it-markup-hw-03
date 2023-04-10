@@ -26,14 +26,21 @@
     margin: 0 auto;
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header>.container {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
     border: 1px solid #E7E9FC;
-    width: 100%;
+    width: 1158px;
+    padding: 0 15px;
     box-sizing: border-box;
+    align-items: center;
+
 }
 
 
