@@ -7,6 +7,13 @@
     --dark-grey: #434455;
 }
 
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
