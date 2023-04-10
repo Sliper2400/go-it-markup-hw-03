@@ -284,6 +284,10 @@ a {
     background-color: var(--light-color);
 }
 
+.team>.container {
+    padding-top: 120px;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -292,11 +296,20 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--grey-color);
-    margin-top: 120px;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.member-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .member {
     background-color: var(--white-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .member-name {
