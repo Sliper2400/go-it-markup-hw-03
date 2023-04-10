@@ -179,6 +179,7 @@ a {
 
 .hero {
     background: var(--grey-color);
+    padding: 188px 0;
 }
 
 .hero>.container {
@@ -402,9 +403,14 @@ a {
     padding-bottom: 100px;
 }
 
+.nav-bar {
+    padding: 96px 0 120px;
+    row-gap: 48px;
+}
+
 .nav-buttons {
+    margin-bottom: 72px;
     margin-top: 96px;
-    margin-bottom: 80px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -434,7 +440,7 @@ a {
     color: var(--white-color);
     background-color: var(--purple-color);
     cursor: pointer;
-    ;
+    border: 1px solid transparent;
 }
 
 .filters-item:focus {
@@ -444,7 +450,7 @@ a {
     color: var(--white-color);
     background-color: var(--purple-color);
     cursor: pointer;
-    ;
+    border: 1px solid transparent;
 }
 
 .cards {
@@ -453,9 +459,9 @@ a {
     gap: 24px;
 }
 
-.cards li {
+.cards-list {
     border: 1px solid #E7E9FC;
-    flex-basis: calc((100% - 3 * 24px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .cards li p,
@@ -482,4 +488,10 @@ a {
     letter-spacing: 0.02em;
     margin-top: 0;
     margin-bottom: 32px;
+}
+
+.card-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
