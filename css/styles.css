@@ -297,10 +297,10 @@ a {
     flex-basis: calc((100% - 48px) / 3)
 }
 
-.duties-section .container {
+/* .duties-section .container {
     border-radius: 0 0 4px 4px;
     padding: 32px 16px;
-}
+} */
 
 .duties-title {
     font-weight: 700;
