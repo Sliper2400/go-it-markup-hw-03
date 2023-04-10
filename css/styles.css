@@ -283,12 +283,17 @@ a {
     margin-bottom: 0;
 }
 
+.duties {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .duties-section {
     padding-bottom: 120px;
 }
 
 .duties-item {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .duties-section .container {
