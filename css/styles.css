@@ -29,7 +29,7 @@ li {
 }
 
 .container {
-    width: 1128px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -251,8 +251,8 @@ a {
 }
 
 .features {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     padding: 120px 0;
 }
 
@@ -493,10 +493,10 @@ a {
     width: calc((100% - 48px) / 3);
 }
 
-.cards li p,
+/* .cards li p,
 .cards li h2 {
-    margin-left: 16px;
-}
+    margin: 0;
+} */
 
 
 .card-content {
